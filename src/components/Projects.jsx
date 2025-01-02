@@ -1,5 +1,6 @@
 import React from "react";
 import { getRandomColor, getImageURL } from "../utils";
+import placeHolder from '../assets/project-place-holder.jpg'
 
 const projects = [
   {
@@ -8,7 +9,9 @@ const projects = [
     details:
       "A portfolio website showcasing my projects and skills, with responsive design. I'll enhance it later with a vibrant color palette!",
     skillsUsed: ["React", "Tailwind CSS"],
-    githubLink: "https://github.com/username/portfolio-website",
+    img: placeHolder,
+    githubLink: "https://github.com/famesy/portfolio",
+    demoLink: "https://famesy.github.io/portfolio/",
   },
   {
     id: 2,
@@ -16,7 +19,9 @@ const projects = [
     details:
       "An e-commerce platform with user authentication and payment integration.",
     skillsUsed: ["Node.js", "Express", "MongoDB", "React"],
-    githubLink: "https://github.com/username/e-commerce-platform",
+    img: placeHolder,
+    githubLink: "https://github.com/famesy/portfolio",
+    demoLink: "https://famesy.github.io/portfolio/",
   },
   {
     id: 3,
@@ -24,7 +29,9 @@ const projects = [
     details:
       "A blog application with CRUD functionality and user authentication.",
     skillsUsed: ["Python", "Django", "SQLite"],
-    githubLink: "https://github.com/username/blog-application",
+    img: placeHolder,
+    githubLink: "https://github.com/famesy/portfolio",
+    demoLink: "https://famesy.github.io/portfolio/",
   },
 ];
 
@@ -36,7 +43,7 @@ function Projects() {
         key={project.id}
       >
         <img
-          src={getImageURL("project-place-holder.jpg")}
+          src={project.img}
           className="max-w-full md:max-w-[50%] rounded-lg"
           alt={`${project.name} example image`}
         />
