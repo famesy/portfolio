@@ -9,7 +9,7 @@ const Contact = () => {
       <ul className="flex gap-8 justify-center items-center">
         <li className="flex items-center gap-2">
           <a
-            href="https://www.linkedin.com/in/username"
+            href="https://www.linkedin.com/in/kittitouch-lelapiyamit/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -19,7 +19,7 @@ const Contact = () => {
         </li>
         <li className="flex items-center gap-2">
           <a
-            href="https://github.com/username"
+            href="https://github.com/famesy"
             target="_blank"
             rel="noopener noreferrer"
           >

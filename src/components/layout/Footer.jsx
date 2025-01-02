@@ -6,19 +6,19 @@ const Footer = () => {
       <div className="container mx-auto text-center">
         <div className="flex justify-center space-x-6 mb-4">
           <a
-            href="https://github.com"
+            href="https://github.com/famesy"
             className="text-gray-600 hover:text-gray-900"
           >
             GitHub
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/kittitouch-lelapiyamit/"
             className="text-gray-600 hover:text-gray-900"
           >
             LinkedIn
           </a>
           <a
-            href="mailto:email@example.com"
+            href="mailto:kittitouch.fame@gmail.com"
             className="text-gray-600 hover:text-gray-900"
           >
             Email
